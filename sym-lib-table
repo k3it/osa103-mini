@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name dsa321)(type Legacy)(uri C:/Users/uncle_ziba/Documents/Dropbox/kicad/libraries/dsa321.lib)(options "")(descr ""))
+  (lib (name 74xgxx)(type Legacy)(uri C:/Users/uncle_ziba/Documents/Dropbox/kicad/libraries/74xgxx.lib)(options "")(descr ""))
+  (lib (name osa103k-rescue)(type Legacy)(uri ${KIPRJMOD}/osa103k-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,78 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,manf#
+1,Unpolarized capacitor,C,C11 C12 C25 C26 C29 C31 C36 C46 C47 C48 C49 C50 C51 C53 C102,0.1uF,C_0603,15,,
+2,Unpolarized capacitor,C,C112 R33,10nF,C_0603,2,,
+3,Unpolarized capacitor,C,C1 C6 C10 C13 C24 C33 C40 C42 C55 C56 C57 C58 C59 C60 C61 C62 C70 C75 C79 C83 C91 C94 C95 C97,10uF,C_0805,24,,
+4,Unpolarized capacitor,C,C3 C15 C34 C35,15p,C_0603,4,,
+5,Unpolarized capacitor,C,C7 C8 C19 C20 C21 C22 C23 C30 C32 C37 C41 C43 C44 C45 C52 C63 C64 C65 C66 C67 C68 C69 C72 C73 C74 C77 C80 C82 C85 C86 C87 C88 C89 C90 C92 C93 C96 C98 C99 C100 C101 C104 C110 C111,1uF,C_0603,44,,
+6,Unpolarized capacitor,C,C5 C38 C39,2.2p,C_0603,3,,
+7,Unpolarized capacitor,C,C2 C71 C76 C78 C81 C84,22uF,C_1206,6,,
+8,Variable capacitor,C_Variable,C18,3..10p,C_Trimmer_Murata_TZC3,1,,
+9,Unpolarized capacitor,C,C106 C107 C108 C109,3.6p,C_0805,4,,
+10,Unpolarized capacitor,C,C4 C14,470p,C_0805,2,,
+11,Unpolarized capacitor,C,C103 C105,47p,C_0603,2,,
+12,Unpolarized capacitor,C,C27 C28,6.2p,C_0603,2,,
+13,Unpolarized capacitor,C,C9 C16 C17 C54,NI,C_0603,4,,
+14,BAV99 High-speed switching diodes,BAV99,D1 D2 D5 D6 D7 D8,BAV99,SOT-23,6,www.nxp.com/documents/data_sheet/BAV99_SER.pdf,
+15,LED generic,LED,D4,green,LED_0805,1,,
+16,LED generic,LED,D3,red,LED_0805,1,,
+17,"Generic connector, single row, 01x03",Conn_01x03,J3 J6,Conn_01x03,Pin_Header_Straight_1x03_Pitch2.54mm,2,,
+18,"Generic connector, single row, 01x07",Conn_01x07,J10,Conn_01x07,Pin_Header_Straight_1x07_Pitch2.54mm,1,,
+19,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J1 J2,Conn_Coaxial,Molex_SMA_Jack_Edge_Mount,2,,
+20,USB mini/micro connector,USB_OTG,J12,USB_OTG,USB_Micro-B,1,,
+21,Inductor,L,L10,10uH,CDRH3D16,1,,
+22,Inductor,L,L1 L2 L3 L4,560n,Neosid_Inductor_SM-NE29_SMD1008,4,,
+23,"Ferrite bead, small symbol",Ferrite_Bead_Small,L6 L7 L8 L11 L13 L14,BLM21AG102,R_0805,6,,
+24,"Ferrite bead, small symbol",Ferrite_Bead_Small,L5 L9 L12,BLM21PG221,R_0805,3,,
+25,"45V Vce, 0.8A Ic, NPN, SOT-23",BC817,Q1 Q2 Q3,BC846,SOT-23,3,http://www.fairchildsemi.com/ds/BC/BC817.pdf,
+26,Resistor,R,R2 R3 R35 R78 R79 R80,1,R_0603,6,,
+27,Resistor,R,R5 R10 R85,10,R_0603,3,,
+28,Resistor,R,R49 R62 R69 R72 R90 R91,10k,R_0603,6,,
+29,Resistor,R,R64 R92 R93,15,R_0603,3,,
+30,Resistor,R,R22 R23,200,R_0603,2,,
+31,Resistor,R,R13 R17 R20,20k,R_0603,3,,
+32,Resistor,R,R36 R73 R74 R94 R95 R96 R97,24.9k 1%,R_0603,7,,
+33,Resistor,R,R26 R30 R31 R34 R38 R39 R40 R41 R42 R43 R44 R45 R46 R47 R48 R65,240 1%,R_0603,16,,
+34,Resistor,R,R11 R21,270,R_0603,2,,
+35,Resistor,R,R28 R67,2M,R_0603,2,,
+36,Resistor,R,R4 R88 R89,2k 1%,R_0603,3,,
+37,Resistor,R,R14,390,R_0603,1,,
+38,Resistor,R,R25 R37 R50 R51 R52 R53 R54 R55 R56 R57 R58 R59 R60 R61 R102 R103 R104 R105,470 1%,R_0603,18,,
+39,Resistor,R,R1 R6,49.9 1%,R_1206,2,,
+40,Resistor,R,R29 R75 R76 R82,5.1k,R_0603,4,,
+41,Resistor,R,R66 R70 R77 R83 R84 R87,68,R_0603,6,,
+42,Resistor,R,R81,7.5k,R_0603,1,,
+43,Resistor,R,R98 R99 R100 R101,75k 1%,R_0805,4,,
+44,Resistor,R,R32,8.2k,R_0603,1,,
+45,Resistor,R,R7 R8 R15 R16 R71,82,R_0603,5,,
+46,Resistor,R,R9 R12 R27 R63 R86,910,R_0603,5,,
+47,Resistor,R,R19 R68,NI,R_0603,2,,
+48,"4 Resistor network, parallel topology, DIP package",R_Pack04,RN1 RN2 RN3 RN4 RN5 RN6 RN7,150,R_Array_Convex_4x0603,7,,
+49,Potentiometer,POT,RV24,1k,Potentiometer_Trimmer_Vishay_TS53YJ,1,,
+50,Potentiometer,POT,RV18,20k,Potentiometer_Trimmer_Vishay_TS53YJ,1,,
+51,"Single NOT Gate, Low-Voltage CMOS",74LVC1G04,U6,74LVC1GU04,SOT-23-5,1,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,
+52,"Dual NOT Gate Schmidt Triggered, Low-Voltage CMOS",74LVC2G14,U7,74LVC2G14,SOT-23-6,1,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,
+53,,AD8009ARZ,U1,AD8009ARZ,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,,
+54,,AD9288BST-100,U2,AD9288BST-40,LQFP-48_7x7mm_Pitch0.5mm,1,,AD9288BSTZ-100
+55,,AT45DB041D-SU,U3,AT45DB041D-SU,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,,
+56,"USB to Serial Interface, SSOP-28",FT232RL,U11,FT232RL,SSOP-28_5.3x10.2mm_Pitch0.65mm,1,http://www.ftdichip.com/Products/ICs/FT232RL.htm,
+57,"300mA low dropout linear regulator, low quiescent current very, low noise, shutdown pin, 0.8V fixed positive output, SOT-23-5/SOT-353-5/SC-70-5",LDK130-08_SOT23_SOT353,U10,LDK130-08_SOT23_SOT353,SOT-23-5,1,http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf,
+58,"150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5",LP2985-1.8,U4,LP2985-1.8,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/lp2985.pdf,
+59,,TPS60403_DBV_5,U8,TPS60403_DBV_5,SOT-23-5,1,,
+60,"SOT-23-5, High-Efficiency Step-Down DC-DC Converter, Adjustable",TPS62200DBV,U9,TPS62200DBV,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/tps62201.pdf,
+61,,XC6SLXN-TQG144,U5,XC6SLXN-TQG144,TQFP-144_20x20mm_Pitch0.5mm,1,,
+62,"Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package",VTCXO-14,X1,VTCXO-14,Crystal_SMD_SeikoEpson_TSX3225-4pin_3.2x2.5mm,1,http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf,
+
+
+
+
+
+Component Groups:,62
+Component Count:,267
+Fitted Components:,267
+Number of PCBs:,1
+Total components:,267
+Schematic Version:,
+Schematic Date:,
+BoM Date:,26/01/2018 16:18:30
+Schematic Source:,C:\Users\uncle_ziba\Documents\Dropbox\kicad\osa103-kl\osa103k\osa103k.sch
+KiCad Version:,Eeschema (2018-01-18 revision 08b15a699)-makepkg

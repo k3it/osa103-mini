@@ -1,0 +1,28 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2450 1550 3000 2075
+U 5B50508E
+F0 "OSA103 Power Supply" 50
+F1 "osa103k-power-supply.sch" 50
+$EndSheet
+$Sheet
+S 6300 1625 2925 2000
+U 5B55F7A2
+F0 "osa103k Main" 50
+F1 "osa103k-main.sch" 50
+$EndSheet
+$EndSCHEMATC
